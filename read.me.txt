@@ -1,0 +1,37 @@
+This is my snake game! Here I tried to follow the most basic logic 
+and create a simple algorithm. 
+
+This is the second iteration of the game. In version 2.0 you've got
+game, which is made with dependency injection. 
+
+What have I done?
+
+So in the very beginning I've got single file with all function,
+macros, structures. But I've decided to separate info among three 
+files:
+1. Header1.h
+2. Source1.c
+3. red Snake.c
+
+Header1: 
+In the first file I put all my macros, which define width,
+height and max length of snake. Also here my structures and all 
+function, which I define. 
+
+Source1:
+
+In that file I put all libraries, which I used in my code and
+include link to file Header.h. After that I put all my functions,
+almost without changes. 
+
+redSnake.c
+
+This is my main file, there stayed link to file Header1 and my main 
+function. So based on that logic I call for the main function 
+and what goes inside it, later compiler initialization functions in
+the Header file and call to Source1.c to execute them.
+
+Link to presentation: https://www.slideshare.net/ssuser9191db/snakepptx
+
+
+
